@@ -12,6 +12,13 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      clipPath: {
+        square: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+      },
+      boxShadow: {
+        "inner-lr":
+          "inset 10px 0 15px -10px rgba(0, 0, 0, 0.1), inset -10px 0 15px -10px rgba(0, 0, 0, 0.1)", // Left and Right inner shadow
+      },
     },
   },
   plugins: [],
